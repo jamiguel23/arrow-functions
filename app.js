@@ -7,6 +7,7 @@ const theOldWay = function(course) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// DONE
 console.log('The old way:', theOldWay('Code 301'));
 
 
@@ -18,6 +19,7 @@ const theNewWay = (course) => {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log('The new way:', theNewWay('Code 301'));
 
 
@@ -28,6 +30,7 @@ const withoutParens = course => {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log('Without parens:', withoutParens('Code 301'));
 
 
@@ -38,6 +41,7 @@ console.log('Without parens:', withoutParens('Code 301'));
 const oneLiner = course => `I cam currently enrolled in ${course}`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log('As a one-liner:', oneLiner('Code 301'));
 
 
@@ -49,6 +53,7 @@ const add = function(num1, num2) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log('Let\'s do some math:', add(4, 5));
 
 
@@ -58,6 +63,7 @@ console.log('Let\'s do some math:', add(4, 5));
 const addOneLiner = (num1, num2) => `${num1} + ${num2} = ${num1 + num2}`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log('Add as a one-liner:', addOneLiner(4, 5));
 
 
@@ -72,6 +78,7 @@ const multiLiner = word => {
 // Question: Why is 'return' implied in step 4 and not here?
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log('Multi-line arrow function:', multiLiner('hello'));
 
 
@@ -87,6 +94,7 @@ const oldObject = function(array) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log('Hello from the old object function', oldObject(['hi', 'hello', 'are you there?']));
 
 
@@ -100,6 +108,7 @@ const newObject = array => ({
 });
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log('Hello from the new object function', newObject(['hi', 'hello', 'are you there?']));
 
 
@@ -118,6 +127,7 @@ const sum = (a, b, c, d) => a + b + c + d;
 
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log(sum(1, 2, 3, 4));
 
 
@@ -136,6 +146,7 @@ const objectLit = array => ({
 });
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
 console.log(objectLit());
 
 
