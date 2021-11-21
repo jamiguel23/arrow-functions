@@ -150,14 +150,21 @@ const objectLit = array => ({
 console.log(objectLit());
 
 
-let sumAndProduct = function(a, b) {
-  let sum = a + b;
-  let product = a * b;
+// let sumAndProduct = function(a, b) {
+//   let sum = a + b;
+//   let product = a * b;
+//   return [sum, product];
+// };
+
+let sumAndProduct = (a,b) => {
+  let sum = a+b;
+  let product = a*b;
   return [sum, product];
-};
+}
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sumAndProduct(3, 9));
+// Done
+console.log(sumAndProduct(3, 9));
 
 
 let message = function(name) {
@@ -165,7 +172,7 @@ let message = function(name) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(message('Allie'));
+console.log(message('Allie'));
 
 
 let Student = function(name, age, hometown) {
