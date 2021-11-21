@@ -185,11 +185,21 @@ let Student = function(name, age, hometown) {
   this.hometown = hometown;
 };
 
+// let Student = array => ({
+//   name: array[0],
+//   age: array[1],
+//   hometown: array[2]
+// });
+
+
+
 let joe = new Student('Joe', 'Schmoe', 100);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+// Done
+// Question: Why did this break?
 // Note that the arrow function will cause this code to break!
-// console.log(joe);
+console.log(joe);
 
 // TODO: After viewing the previous console.log(), return the code to a working state.
 
