@@ -139,7 +139,7 @@ console.log(sum(1, 2, 3, 4));
 //   };
 // };
 
-const objectLit = array => ({
+const objectLit = value => ({
   key1: 'value1',
   key2: 'value2',
   key3: 'value3'
@@ -248,8 +248,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-// The "this" is undefined 
+// The "this" in the regular construstor is undefined.
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// The "this" in the arrow function pulls up what I think is a window object
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// I have no idea why these are diffrent. My guess is that the combonation of the '=' sintax and the removal of the word 'function' is processed diffrently for the student prototype. OR you can't write prototypes as arrow functions.
